@@ -12,6 +12,7 @@ root.geometry('550x250')
 text = tk.Text(root, height=12)
 text.grid(column=0, row=0, sticky='nsew')
 
+#test commitu
 
 def open_text_file():
     # file type
