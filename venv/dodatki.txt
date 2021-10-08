@@ -1,0 +1,48 @@
+- nie przerywanie w pół
+- jak wycentrować pisanie?
+- pomodore
+- oddzielny Frame - wybór czcionki i motyw
+    - wybor trybu
+
+- zmiana czcionki 
+- dodanie dokumentacji jakie skróty klawiszowe
+- autosave
+- lepszy save
+
+pyinstaller --onefile pythonScriptName.py - kompilacja jako exe
+
+
+todo, pomodore
+listy, wypunktowania
+
+"masz niezapisane zmiany"
+2. zapisywanie projektów - inaczej
+
+//
+def function_1():
+    print('Function 1 activated')
+
+def function_2():
+    print('Function 2 activated')
+
+with keyboard.GlobalHotKeys({
+        '<alt>+<ctrl>+r': function_1,
+        '<alt>+<ctrl>+t': function_1,
+        '<alt>+<ctrl>+y': function_2}) as h:
+    h.join()
+
+//
+#menu_bar = Menu(window)
+#window.config(menu=menu_bar)
+
+#file_menu = Menu(menu_bar, tearoff=0)
+#menu_bar.add_cascade(label="Project", menu=file_menu)
+#file_menu.add_command(label="New project", command=new_file)
+#file_menu.add_command(label="Open project", command=open_file)
+#file_menu.add_command(label="Save project", command=save_file)
+
+
+https://www.tutorialspoint.com/python/tk_text.htm
+https://www.delftstack.com/howto/python-tkinter/how-to-use-a-timer-in-tkinter/
+https://stackoverflow.com/questions/22848080/python-create-save-button-that-saves-an-edited-version-to-the-same-filenot-save
+https://www.youtube.com/watch?v=OZSZHmWSOeM
