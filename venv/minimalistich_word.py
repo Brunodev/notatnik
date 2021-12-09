@@ -12,7 +12,7 @@ def press(key):
     if key == pynput.keyboard.Key.f2:
         open_file()
     if key == pynput.keyboard.Key.f1:
-        save()
+        save_file_as()
         print("dsdas")
 
 pynput.keyboard.Listener(on_press=press).start()
@@ -56,7 +56,7 @@ window =Tk()
 window.title("Minimalistic word")
 file = None
 
-window_width = 500
+window_width = 150
 window_height = 500
 screen_width = window.winfo_screenwidth()
 screen_height = window.winfo_screenheight()
